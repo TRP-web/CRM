@@ -1,0 +1,76 @@
+# =========================
+# OS / Editors
+# =========================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Node / Package managers
+# =========================
+node_modules/
+npm-debug.log*
+
+
+# Lockfiles (оставь один нужный, остальные можно удалить из репо)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# =========================
+# Env files / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Build outputs
+# =========================
+dist/
+build/
+out/
+
+# Next.js
+.next/
+apps/**/.next/
+apps/**/out/
+apps/**/.vercel/
+.vercel/
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Testing / Coverage
+# =========================
+coverage/
+.nyc_output/
+
+# =========================
+# Prisma (обычно НЕ игнорят schema и migrations)
+# =========================
+# prisma/dev.db
+# prisma/dev.db-journal
+
+# =========================
+# Docker
+# =========================
+docker-data/
+postgres_data/
+*.pid
+*.seed
+
+# =========================
+# Temporary / cache
