@@ -35,9 +35,9 @@ out/
 
 # Next.js
 .next/
-# apps/**/.next/
-# apps/**/out/
-# apps/**/.vercel/
+apps/**/.next/
+apps/**/out/
+apps/**/.vercel/
 .vercel/
 
 # =========================
